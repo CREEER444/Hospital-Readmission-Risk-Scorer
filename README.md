@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🏥 Hospital Readmission Risk Scorer
 
 **AI-Powered Patient Risk Assessment System**
@@ -550,3 +551,7 @@ If you find this useful, please star ⭐ on GitHub!
 **Last Updated**: January 2024  
 **Version**: 1.0.0  
 **Status**: Active Development
+=======
+# Hospital-Readmission-Risk-Scorer
+AI-powered Hospital Readmission Risk Scorer with patient risk prediction, doctor appointment booking, bed reservation, follow-up scheduling, medicine ordering, SMS reports, Excel import/export, and interactive healthcare dashboard built using React, Flask, SQLite, and Electron.
+>>>>>>> 6ec7f395279b40727a9e2f7698ce16fd2511259c
