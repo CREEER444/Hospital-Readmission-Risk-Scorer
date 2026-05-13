@@ -1,0 +1,5295 @@
+[
+  {
+    "patient": {
+      "id": "P021",
+      "name": "Akash Nayak",
+      "phone": "+919673401275"
+    },
+    "prediction": {
+      "risk_probability": 0.567,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 56.7
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Many medications may increase complication risk",
+      "High comorbidity score shows multiple health issues",
+      "Diabetes may delay recovery and increase readmission risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.8
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.6
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.6
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.25
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T11:05:03.706598",
+      "features_used": {
+        "age": 25.0,
+        "length_of_stay": 6.0,
+        "num_medications": 9.0,
+        "num_diagnoses": 8.0,
+        "emergency_visits": 1.0,
+        "comorbidity_score": 6.0,
+        "diabetes": 1.0,
+        "heart_disease": 0.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P018",
+      "name": "Aishwarya Rai",
+      "phone": "+917743243040"
+    },
+    "prediction": {
+      "risk_probability": 0.52,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 52.0
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Long hospital stay indicates serious condition",
+      "High comorbidity score shows multiple health issues",
+      "Diabetes may delay recovery and increase readmission risk",
+      "Heart disease increases complication risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.8
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.5
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.47
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.13
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T11:05:03.614215",
+      "features_used": {
+        "age": 50.0,
+        "length_of_stay": 14.0,
+        "num_medications": 2.0,
+        "num_diagnoses": 4.0,
+        "emergency_visits": 1.0,
+        "comorbidity_score": 8.0,
+        "diabetes": 1.0,
+        "heart_disease": 1.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P010",
+      "name": "Meera Sharma",
+      "phone": "+919610252516"
+    },
+    "prediction": {
+      "risk_probability": 0.613,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 61.3
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Long hospital stay indicates serious condition",
+      "Many medications may increase complication risk",
+      "High comorbidity score shows multiple health issues",
+      "Smoking history can affect lung function and recovery"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Medications",
+        "impact_score": 0.87
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.8
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.7
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.65
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.47
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.36
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T11:05:02.235648",
+      "features_used": {
+        "age": 36.0,
+        "length_of_stay": 14.0,
+        "num_medications": 13.0,
+        "num_diagnoses": 8.0,
+        "emergency_visits": 1.0,
+        "comorbidity_score": 7.0,
+        "diabetes": 0.0,
+        "heart_disease": 0.0,
+        "smoking": 1.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P009",
+      "name": "Karthik Bhat",
+      "phone": "+918491204725"
+    },
+    "prediction": {
+      "risk_probability": 0.413,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 41.3
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Many medications may increase complication risk",
+      "High comorbidity score shows multiple health issues",
+      "Heart disease increases complication risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 1.0
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.93
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.26
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.07
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T11:05:02.160418",
+      "features_used": {
+        "age": 26.0,
+        "length_of_stay": 2.0,
+        "num_medications": 14.0,
+        "num_diagnoses": 4.0,
+        "emergency_visits": 1.0,
+        "comorbidity_score": 10.0,
+        "diabetes": 0.0,
+        "heart_disease": 1.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "p13",
+      "name": "santhu",
+      "phone": "9786541234"
+    },
+    "prediction": {
+      "risk_probability": 0.227,
+      "risk_level": "LOW",
+      "risk_percentage": 22.7
+    },
+    "recommendations": [
+      "\u2713 Standard discharge protocols",
+      "\u2713 Routine follow-up in 2 weeks",
+      "\u2713 Standard medication management"
+    ],
+    "ai_explanation": [
+      "Frequent emergency visits show unstable health",
+      "High comorbidity score shows multiple health issues"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.6
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.45
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.13
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.1
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T02:06:41.981116",
+      "features_used": {
+        "age": 45.0,
+        "length_of_stay": 4.0,
+        "num_medications": 6.0,
+        "num_diagnoses": 1.0,
+        "emergency_visits": 2.0,
+        "comorbidity_score": 6.0,
+        "diabetes": 0.0,
+        "heart_disease": 0.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P030",
+      "name": "Nisha Gowda",
+      "phone": "+918292303052"
+    },
+    "prediction": {
+      "risk_probability": 0.953,
+      "risk_level": "HIGH",
+      "risk_percentage": 95.3
+    },
+    "recommendations": [
+      "\ud83d\udea8 Intensive discharge planning required",
+      "\ud83d\udea8 Follow-up within 24-48 hours",
+      "\ud83d\udea8 Arrange home health monitoring",
+      "\ud83d\udea8 Consider extended observation",
+      "\ud83d\udea8 Schedule specialist follow-up",
+      "\ud83d\udea8 Review all medications and comorbidities"
+    ],
+    "ai_explanation": [
+      "Older age increases readmission risk",
+      "Long hospital stay indicates serious condition",
+      "Many medications may increase complication risk",
+      "Frequent emergency visits show unstable health",
+      "High comorbidity score shows multiple health issues",
+      "Diabetes may delay recovery and increase readmission risk",
+      "Smoking history can affect lung function and recovery"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.8
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.8
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.8
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.65
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.6
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.33
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T11:05:05.483556",
+      "features_used": {
+        "age": 75.0,
+        "length_of_stay": 10.0,
+        "num_medications": 12.0,
+        "num_diagnoses": 8.0,
+        "emergency_visits": 4.0,
+        "comorbidity_score": 6.0,
+        "diabetes": 1.0,
+        "heart_disease": 0.0,
+        "smoking": 1.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P029",
+      "name": "Arjun Hegde",
+      "phone": "+918061643501"
+    },
+    "prediction": {
+      "risk_probability": 0.427,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 42.7
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Many medications may increase complication risk",
+      "Frequent emergency visits show unstable health",
+      "Heart disease increases complication risk",
+      "Smoking history can affect lung function and recovery"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Medications",
+        "impact_score": 0.93
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.65
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.45
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.1
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T11:05:05.376091",
+      "features_used": {
+        "age": 45.0,
+        "length_of_stay": 6.0,
+        "num_medications": 14.0,
+        "num_diagnoses": 1.0,
+        "emergency_visits": 2.0,
+        "comorbidity_score": 2.0,
+        "diabetes": 0.0,
+        "heart_disease": 1.0,
+        "smoking": 1.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P028",
+      "name": "Keerthi Nair",
+      "phone": "+917167037978"
+    },
+    "prediction": {
+      "risk_probability": 0.7,
+      "risk_level": "HIGH",
+      "risk_percentage": 70.0
+    },
+    "recommendations": [
+      "\ud83d\udea8 Intensive discharge planning required",
+      "\ud83d\udea8 Follow-up within 24-48 hours",
+      "\ud83d\udea8 Arrange home health monitoring",
+      "\ud83d\udea8 Consider extended observation",
+      "\ud83d\udea8 Schedule specialist follow-up",
+      "\ud83d\udea8 Review all medications and comorbidities"
+    ],
+    "ai_explanation": [
+      "Older age increases readmission risk",
+      "Many medications may increase complication risk",
+      "Frequent emergency visits show unstable health",
+      "High comorbidity score shows multiple health issues",
+      "Smoking history can affect lung function and recovery"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 1.0
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.8
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.67
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.65
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.03
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T11:05:05.122503",
+      "features_used": {
+        "age": 75.0,
+        "length_of_stay": 1.0,
+        "num_medications": 10.0,
+        "num_diagnoses": 8.0,
+        "emergency_visits": 2.0,
+        "comorbidity_score": 10.0,
+        "diabetes": 0.0,
+        "heart_disease": 0.0,
+        "smoking": 1.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P027",
+      "name": "Lakshmi Rao",
+      "phone": "+919724230947"
+    },
+    "prediction": {
+      "risk_probability": 0.613,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 61.3
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Many medications may increase complication risk",
+      "Frequent emergency visits show unstable health",
+      "Diabetes may delay recovery and increase readmission risk",
+      "Heart disease increases complication risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.73
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.59
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.17
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T02:00:22.089838",
+      "features_used": {
+        "age": 59.0,
+        "length_of_stay": 5.0,
+        "num_medications": 11.0,
+        "num_diagnoses": 4.0,
+        "emergency_visits": 2.0,
+        "comorbidity_score": 4.0,
+        "diabetes": 1.0,
+        "heart_disease": 1.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P026",
+      "name": "Anita Kulkarni",
+      "phone": "+918014270134"
+    },
+    "prediction": {
+      "risk_probability": 0.413,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 41.3
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Frequent emergency visits show unstable health",
+      "High comorbidity score shows multiple health issues",
+      "Heart disease increases complication risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.9
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.6
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.33
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.32
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.1
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T11:05:05.014509",
+      "features_used": {
+        "age": 32.0,
+        "length_of_stay": 6.0,
+        "num_medications": 5.0,
+        "num_diagnoses": 1.0,
+        "emergency_visits": 3.0,
+        "comorbidity_score": 9.0,
+        "diabetes": 0.0,
+        "heart_disease": 1.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P025",
+      "name": "Vinay Bhat",
+      "phone": "+919771626226"
+    },
+    "prediction": {
+      "risk_probability": 0.373,
+      "risk_level": "LOW",
+      "risk_percentage": 37.3
+    },
+    "recommendations": [
+      "\u2713 Standard discharge protocols",
+      "\u2713 Routine follow-up in 2 weeks",
+      "\u2713 Standard medication management"
+    ],
+    "ai_explanation": [
+      "Long hospital stay indicates serious condition",
+      "Diabetes may delay recovery and increase readmission risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.51
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.27
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T11:05:04.748346",
+      "features_used": {
+        "age": 51.0,
+        "length_of_stay": 8.0,
+        "num_medications": 6.0,
+        "num_diagnoses": 4.0,
+        "emergency_visits": 1.0,
+        "comorbidity_score": 2.0,
+        "diabetes": 1.0,
+        "heart_disease": 0.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P024",
+      "name": "Rashmi Shetty",
+      "phone": "+918497927657"
+    },
+    "prediction": {
+      "risk_probability": 0.607,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 60.7
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Older age increases readmission risk",
+      "Many medications may increase complication risk",
+      "Frequent emergency visits show unstable health",
+      "High comorbidity score shows multiple health issues",
+      "Diabetes may delay recovery and increase readmission risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.8
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.8
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.64
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.6
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.1
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.07
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T11:05:04.387046",
+      "features_used": {
+        "age": 64.0,
+        "length_of_stay": 2.0,
+        "num_medications": 12.0,
+        "num_diagnoses": 1.0,
+        "emergency_visits": 3.0,
+        "comorbidity_score": 8.0,
+        "diabetes": 1.0,
+        "heart_disease": 0.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P023",
+      "name": "Deepak Kulkarni",
+      "phone": "+917323473279"
+    },
+    "prediction": {
+      "risk_probability": 0.287,
+      "risk_level": "LOW",
+      "risk_percentage": 28.7
+    },
+    "recommendations": [
+      "\u2713 Standard discharge protocols",
+      "\u2713 Routine follow-up in 2 weeks",
+      "\u2713 Standard medication management"
+    ],
+    "ai_explanation": [
+      "Frequent emergency visits show unstable health",
+      "High comorbidity score shows multiple health issues",
+      "Diabetes may delay recovery and increase readmission risk",
+      "Heart disease increases complication risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 1.0
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.45
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.27
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.1
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.07
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T11:05:04.116375",
+      "features_used": {
+        "age": 45.0,
+        "length_of_stay": 2.0,
+        "num_medications": 4.0,
+        "num_diagnoses": 1.0,
+        "emergency_visits": 2.0,
+        "comorbidity_score": 10.0,
+        "diabetes": 1.0,
+        "heart_disease": 1.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P022",
+      "name": "Lakshmi Rao",
+      "phone": "+917146505356"
+    },
+    "prediction": {
+      "risk_probability": 0.573,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 57.3
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Long hospital stay indicates serious condition",
+      "Frequent emergency visits show unstable health",
+      "High comorbidity score shows multiple health issues"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 1.0
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.7
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.6
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.33
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.32
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T11:05:03.977761",
+      "features_used": {
+        "age": 32.0,
+        "length_of_stay": 10.0,
+        "num_medications": 3.0,
+        "num_diagnoses": 7.0,
+        "emergency_visits": 3.0,
+        "comorbidity_score": 10.0,
+        "diabetes": 0.0,
+        "heart_disease": 0.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P019",
+      "name": "Kavya Hegde",
+      "phone": "+917714300770"
+    },
+    "prediction": {
+      "risk_probability": 0.68,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 68.0
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Older age increases readmission risk",
+      "Long hospital stay indicates serious condition",
+      "Frequent emergency visits show unstable health",
+      "High comorbidity score shows multiple health issues",
+      "Diabetes may delay recovery and increase readmission risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.9
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.6
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.6
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.33
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.27
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T02:00:21.019864",
+      "features_used": {
+        "age": 60.0,
+        "length_of_stay": 8.0,
+        "num_medications": 5.0,
+        "num_diagnoses": 2.0,
+        "emergency_visits": 3.0,
+        "comorbidity_score": 9.0,
+        "diabetes": 1.0,
+        "heart_disease": 0.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P017",
+      "name": "Sneha Pai",
+      "phone": "+917232663462"
+    },
+    "prediction": {
+      "risk_probability": 0.607,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 60.7
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Long hospital stay indicates serious condition",
+      "Many medications may increase complication risk",
+      "Diabetes may delay recovery and increase readmission risk",
+      "Heart disease increases complication risk",
+      "Smoking history can affect lung function and recovery"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.7
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.65
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.6
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.56
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.43
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.2
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T02:00:20.941983",
+      "features_used": {
+        "age": 56.0,
+        "length_of_stay": 13.0,
+        "num_medications": 9.0,
+        "num_diagnoses": 7.0,
+        "emergency_visits": 1.0,
+        "comorbidity_score": 2.0,
+        "diabetes": 1.0,
+        "heart_disease": 1.0,
+        "smoking": 1.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P016",
+      "name": "Neha Patil",
+      "phone": "+919848372164"
+    },
+    "prediction": {
+      "risk_probability": 0.453,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 45.3
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Frequent emergency visits show unstable health",
+      "Diabetes may delay recovery and increase readmission risk",
+      "Heart disease increases complication risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.9
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.57
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.27
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.1
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T11:05:03.351083",
+      "features_used": {
+        "age": 57.0,
+        "length_of_stay": 3.0,
+        "num_medications": 4.0,
+        "num_diagnoses": 9.0,
+        "emergency_visits": 2.0,
+        "comorbidity_score": 2.0,
+        "diabetes": 1.0,
+        "heart_disease": 1.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P015",
+      "name": "Manoj Hegde",
+      "phone": "+919413480199"
+    },
+    "prediction": {
+      "risk_probability": 0.673,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 67.3
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Older age increases readmission risk",
+      "Many medications may increase complication risk",
+      "Frequent emergency visits show unstable health",
+      "Diabetes may delay recovery and increase readmission risk",
+      "Heart disease increases complication risk",
+      "Smoking history can affect lung function and recovery"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Medications",
+        "impact_score": 0.93
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.8
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.79
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.65
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.5
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.13
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.1
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T11:05:03.253623",
+      "features_used": {
+        "age": 79.0,
+        "length_of_stay": 4.0,
+        "num_medications": 14.0,
+        "num_diagnoses": 5.0,
+        "emergency_visits": 4.0,
+        "comorbidity_score": 1.0,
+        "diabetes": 1.0,
+        "heart_disease": 1.0,
+        "smoking": 1.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P014",
+      "name": "Divya Shetty",
+      "phone": "+917261609510"
+    },
+    "prediction": {
+      "risk_probability": 0.167,
+      "risk_level": "LOW",
+      "risk_percentage": 16.7
+    },
+    "recommendations": [
+      "\u2713 Standard discharge protocols",
+      "\u2713 Routine follow-up in 2 weeks",
+      "\u2713 Standard medication management"
+    ],
+    "ai_explanation": [
+      "Frequent emergency visits show unstable health"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Age",
+        "impact_score": 0.55
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.3
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.3
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.03
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T11:05:02.989519",
+      "features_used": {
+        "age": 55.0,
+        "length_of_stay": 1.0,
+        "num_medications": 3.0,
+        "num_diagnoses": 3.0,
+        "emergency_visits": 2.0,
+        "comorbidity_score": 3.0,
+        "diabetes": 0.0,
+        "heart_disease": 0.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P013",
+      "name": "Rahul Rao",
+      "phone": "+919974890009"
+    },
+    "prediction": {
+      "risk_probability": 0.567,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 56.7
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Many medications may increase complication risk",
+      "Frequent emergency visits show unstable health",
+      "High comorbidity score shows multiple health issues",
+      "Diabetes may delay recovery and increase readmission risk",
+      "Heart disease increases complication risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Medications",
+        "impact_score": 0.93
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.9
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.9
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.51
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.07
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T11:05:02.622739",
+      "features_used": {
+        "age": 51.0,
+        "length_of_stay": 2.0,
+        "num_medications": 14.0,
+        "num_diagnoses": 9.0,
+        "emergency_visits": 2.0,
+        "comorbidity_score": 9.0,
+        "diabetes": 1.0,
+        "heart_disease": 1.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P011",
+      "name": "Nikhil Gowda",
+      "phone": "+918319214360"
+    },
+    "prediction": {
+      "risk_probability": 0.453,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 45.3
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Older age increases readmission risk",
+      "Many medications may increase complication risk",
+      "Diabetes may delay recovery and increase readmission risk",
+      "Heart disease increases complication risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Medications",
+        "impact_score": 1.0
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.64
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.03
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T11:05:02.517880",
+      "features_used": {
+        "age": 64.0,
+        "length_of_stay": 1.0,
+        "num_medications": 15.0,
+        "num_diagnoses": 2.0,
+        "emergency_visits": 1.0,
+        "comorbidity_score": 4.0,
+        "diabetes": 1.0,
+        "heart_disease": 1.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P008",
+      "name": "Kavya Hegde",
+      "phone": "+918152385041"
+    },
+    "prediction": {
+      "risk_probability": 0.42,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 42.0
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Older age increases readmission risk",
+      "High comorbidity score shows multiple health issues",
+      "Heart disease increases complication risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 1.0
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.72
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.3
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.27
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.13
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T11:05:01.878003",
+      "features_used": {
+        "age": 72.0,
+        "length_of_stay": 4.0,
+        "num_medications": 4.0,
+        "num_diagnoses": 3.0,
+        "emergency_visits": 1.0,
+        "comorbidity_score": 10.0,
+        "diabetes": 0.0,
+        "heart_disease": 1.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P007",
+      "name": "Karthik Bhat",
+      "phone": "+917913224047"
+    },
+    "prediction": {
+      "risk_probability": 0.653,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 65.3
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Older age increases readmission risk",
+      "Long hospital stay indicates serious condition",
+      "Many medications may increase complication risk",
+      "Diabetes may delay recovery and increase readmission risk",
+      "Heart disease increases complication risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Medications",
+        "impact_score": 0.93
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.66
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.47
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.1
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.1
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T02:00:19.582936",
+      "features_used": {
+        "age": 66.0,
+        "length_of_stay": 14.0,
+        "num_medications": 14.0,
+        "num_diagnoses": 1.0,
+        "emergency_visits": 1.0,
+        "comorbidity_score": 1.0,
+        "diabetes": 1.0,
+        "heart_disease": 1.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P006",
+      "name": "Priya Nair",
+      "phone": "+917358645241"
+    },
+    "prediction": {
+      "risk_probability": 0.387,
+      "risk_level": "LOW",
+      "risk_percentage": 38.7
+    },
+    "recommendations": [
+      "\u2713 Standard discharge protocols",
+      "\u2713 Routine follow-up in 2 weeks",
+      "\u2713 Standard medication management"
+    ],
+    "ai_explanation": [
+      "Long hospital stay indicates serious condition",
+      "Frequent emergency visits show unstable health",
+      "Heart disease increases complication risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.8
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.36
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.33
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.13
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T11:05:01.784800",
+      "features_used": {
+        "age": 36.0,
+        "length_of_stay": 10.0,
+        "num_medications": 2.0,
+        "num_diagnoses": 2.0,
+        "emergency_visits": 4.0,
+        "comorbidity_score": 4.0,
+        "diabetes": 0.0,
+        "heart_disease": 1.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P005",
+      "name": "Aditya Naik",
+      "phone": "+918824181489"
+    },
+    "prediction": {
+      "risk_probability": 0.58,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 58.0
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Long hospital stay indicates serious condition",
+      "Many medications may increase complication risk",
+      "Frequent emergency visits show unstable health",
+      "High comorbidity score shows multiple health issues"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Medications",
+        "impact_score": 1.0
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.8
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.6
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.5
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.22
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.1
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T11:05:01.517249",
+      "features_used": {
+        "age": 22.0,
+        "length_of_stay": 15.0,
+        "num_medications": 15.0,
+        "num_diagnoses": 1.0,
+        "emergency_visits": 3.0,
+        "comorbidity_score": 8.0,
+        "diabetes": 0.0,
+        "heart_disease": 0.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P004",
+      "name": "Sneha Pai",
+      "phone": "+917856773913"
+    },
+    "prediction": {
+      "risk_probability": 0.547,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 54.7
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Long hospital stay indicates serious condition",
+      "Many medications may increase complication risk",
+      "Frequent emergency visits show unstable health",
+      "Diabetes may delay recovery and increase readmission risk",
+      "Heart disease increases complication risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Medications",
+        "impact_score": 1.0
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.5
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T11:05:01.422832",
+      "features_used": {
+        "age": 50.0,
+        "length_of_stay": 12.0,
+        "num_medications": 15.0,
+        "num_diagnoses": 2.0,
+        "emergency_visits": 2.0,
+        "comorbidity_score": 4.0,
+        "diabetes": 1.0,
+        "heart_disease": 1.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P003",
+      "name": "Vihaan Kumar",
+      "phone": "+917880297003"
+    },
+    "prediction": {
+      "risk_probability": 0.287,
+      "risk_level": "LOW",
+      "risk_percentage": 28.7
+    },
+    "recommendations": [
+      "\u2713 Standard discharge protocols",
+      "\u2713 Routine follow-up in 2 weeks",
+      "\u2713 Standard medication management"
+    ],
+    "ai_explanation": [
+      "Frequent emergency visits show unstable health",
+      "Diabetes may delay recovery and increase readmission risk",
+      "Smoking history can affect lung function and recovery"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.9
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.8
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.65
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.28
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.07
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T11:05:01.155709",
+      "features_used": {
+        "age": 28.0,
+        "length_of_stay": 2.0,
+        "num_medications": 6.0,
+        "num_diagnoses": 9.0,
+        "emergency_visits": 4.0,
+        "comorbidity_score": 2.0,
+        "diabetes": 1.0,
+        "heart_disease": 0.0,
+        "smoking": 1.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P002",
+      "name": "Ananya Rao",
+      "phone": "+918022254636"
+    },
+    "prediction": {
+      "risk_probability": 0.427,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 42.7
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "High comorbidity score shows multiple health issues",
+      "Diabetes may delay recovery and increase readmission risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.8
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.7
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.32
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T11:05:00.789478",
+      "features_used": {
+        "age": 32.0,
+        "length_of_stay": 6.0,
+        "num_medications": 3.0,
+        "num_diagnoses": 7.0,
+        "emergency_visits": 1.0,
+        "comorbidity_score": 8.0,
+        "diabetes": 1.0,
+        "heart_disease": 0.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P001",
+      "name": "Aarav Shetty",
+      "phone": "+919597161677"
+    },
+    "prediction": {
+      "risk_probability": 0.76,
+      "risk_level": "HIGH",
+      "risk_percentage": 76.0
+    },
+    "recommendations": [
+      "\ud83d\udea8 Intensive discharge planning required",
+      "\ud83d\udea8 Follow-up within 24-48 hours",
+      "\ud83d\udea8 Arrange home health monitoring",
+      "\ud83d\udea8 Consider extended observation",
+      "\ud83d\udea8 Schedule specialist follow-up",
+      "\ud83d\udea8 Review all medications and comorbidities"
+    ],
+    "ai_explanation": [
+      "Older age increases readmission risk",
+      "Long hospital stay indicates serious condition",
+      "Many medications may increase complication risk",
+      "Heart disease increases complication risk",
+      "Smoking history can affect lung function and recovery"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Medications",
+        "impact_score": 0.87
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.81
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.65
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.5
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.33
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.3
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T11:05:00.730182",
+      "features_used": {
+        "age": 81.0,
+        "length_of_stay": 10.0,
+        "num_medications": 13.0,
+        "num_diagnoses": 5.0,
+        "emergency_visits": 1.0,
+        "comorbidity_score": 3.0,
+        "diabetes": 0.0,
+        "heart_disease": 1.0,
+        "smoking": 1.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "30",
+      "name": "Yash",
+      "phone": "9857768627"
+    },
+    "prediction": {
+      "risk_probability": 0.84,
+      "risk_level": "HIGH",
+      "risk_percentage": 84.0
+    },
+    "recommendations": [
+      "\ud83d\udea8 Intensive discharge planning required",
+      "\ud83d\udea8 Follow-up within 24-48 hours",
+      "\ud83d\udea8 Arrange home health monitoring",
+      "\ud83d\udea8 Consider extended observation",
+      "\ud83d\udea8 Schedule specialist follow-up",
+      "\ud83d\udea8 Review all medications and comorbidities"
+    ],
+    "ai_explanation": [
+      "Older age increases readmission risk",
+      "Long hospital stay indicates serious condition",
+      "Many medications may increase complication risk",
+      "Frequent emergency visits show unstable health",
+      "Diabetes may delay recovery and increase readmission risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 1.0
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.73
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.7
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.37
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-08T22:58:40.383045",
+      "features_used": {
+        "age": 85.0,
+        "length_of_stay": 11.0,
+        "num_medications": 11.0,
+        "num_diagnoses": 7.0,
+        "emergency_visits": 5.0,
+        "comorbidity_score": 2.0,
+        "diabetes": 1.0,
+        "heart_disease": 0.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "29",
+      "name": "Darshan",
+      "phone": "9855053411"
+    },
+    "prediction": {
+      "risk_probability": 0.667,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 66.7
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Long hospital stay indicates serious condition",
+      "Many medications may increase complication risk",
+      "Frequent emergency visits show unstable health",
+      "Diabetes may delay recovery and increase readmission risk",
+      "Heart disease increases complication risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 1.0
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 1.0
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.54
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.5
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.23
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-08T22:58:40.023140",
+      "features_used": {
+        "age": 54.0,
+        "length_of_stay": 7.0,
+        "num_medications": 15.0,
+        "num_diagnoses": 5.0,
+        "emergency_visits": 5.0,
+        "comorbidity_score": 4.0,
+        "diabetes": 1.0,
+        "heart_disease": 1.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "27",
+      "name": "Vinay",
+      "phone": "9842089656"
+    },
+    "prediction": {
+      "risk_probability": 0.527,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 52.7
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Long hospital stay indicates serious condition",
+      "Many medications may increase complication risk",
+      "Diabetes may delay recovery and increase readmission risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Medications",
+        "impact_score": 0.93
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.6
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.5
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.42
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.3
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-08T22:58:39.752634",
+      "features_used": {
+        "age": 42.0,
+        "length_of_stay": 15.0,
+        "num_medications": 14.0,
+        "num_diagnoses": 6.0,
+        "emergency_visits": 1.0,
+        "comorbidity_score": 3.0,
+        "diabetes": 1.0,
+        "heart_disease": 0.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "26",
+      "name": "Ramesh",
+      "phone": "9859927853"
+    },
+    "prediction": {
+      "risk_probability": 0.76,
+      "risk_level": "HIGH",
+      "risk_percentage": 76.0
+    },
+    "recommendations": [
+      "\ud83d\udea8 Intensive discharge planning required",
+      "\ud83d\udea8 Follow-up within 24-48 hours",
+      "\ud83d\udea8 Arrange home health monitoring",
+      "\ud83d\udea8 Consider extended observation",
+      "\ud83d\udea8 Schedule specialist follow-up",
+      "\ud83d\udea8 Review all medications and comorbidities"
+    ],
+    "ai_explanation": [
+      "Long hospital stay indicates serious condition",
+      "Many medications may increase complication risk",
+      "Frequent emergency visits show unstable health",
+      "High comorbidity score shows multiple health issues",
+      "Diabetes may delay recovery and increase readmission risk",
+      "Heart disease increases complication risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.9
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.8
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.7
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.53
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.41
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.3
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-08T22:58:39.396438",
+      "features_used": {
+        "age": 41.0,
+        "length_of_stay": 9.0,
+        "num_medications": 8.0,
+        "num_diagnoses": 7.0,
+        "emergency_visits": 4.0,
+        "comorbidity_score": 9.0,
+        "diabetes": 1.0,
+        "heart_disease": 1.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "25",
+      "name": "Karthik",
+      "phone": "9862377685"
+    },
+    "prediction": {
+      "risk_probability": 0.62,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 62.0
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Long hospital stay indicates serious condition",
+      "High comorbidity score shows multiple health issues"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 1.0
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.7
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.58
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.33
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-08T22:58:39.345033",
+      "features_used": {
+        "age": 58.0,
+        "length_of_stay": 10.0,
+        "num_medications": 3.0,
+        "num_diagnoses": 7.0,
+        "emergency_visits": 1.0,
+        "comorbidity_score": 10.0,
+        "diabetes": 0.0,
+        "heart_disease": 0.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "24",
+      "name": "Tejas",
+      "phone": "9894503922"
+    },
+    "prediction": {
+      "risk_probability": 0.393,
+      "risk_level": "LOW",
+      "risk_percentage": 39.3
+    },
+    "recommendations": [
+      "\u2713 Standard discharge protocols",
+      "\u2713 Routine follow-up in 2 weeks",
+      "\u2713 Standard medication management"
+    ],
+    "ai_explanation": [
+      "Many medications may increase complication risk",
+      "Frequent emergency visits show unstable health",
+      "Smoking history can affect lung function and recovery"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Medications",
+        "impact_score": 0.87
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.8
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.65
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.6
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.48
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.03
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-08T22:58:39.049162",
+      "features_used": {
+        "age": 48.0,
+        "length_of_stay": 1.0,
+        "num_medications": 13.0,
+        "num_diagnoses": 6.0,
+        "emergency_visits": 4.0,
+        "comorbidity_score": 2.0,
+        "diabetes": 0.0,
+        "heart_disease": 0.0,
+        "smoking": 1.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "23",
+      "name": "Praveen",
+      "phone": "9817481731"
+    },
+    "prediction": {
+      "risk_probability": 0.5,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 50.0
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Older age increases readmission risk",
+      "Frequent emergency visits show unstable health",
+      "Diabetes may delay recovery and increase readmission risk",
+      "Smoking history can affect lung function and recovery"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Age",
+        "impact_score": 0.82
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.8
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.65
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.6
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.13
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.07
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-08T22:58:38.990808",
+      "features_used": {
+        "age": 82.0,
+        "length_of_stay": 2.0,
+        "num_medications": 2.0,
+        "num_diagnoses": 6.0,
+        "emergency_visits": 4.0,
+        "comorbidity_score": 4.0,
+        "diabetes": 1.0,
+        "heart_disease": 0.0,
+        "smoking": 1.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "22",
+      "name": "Akash",
+      "phone": "9896808884"
+    },
+    "prediction": {
+      "risk_probability": 0.76,
+      "risk_level": "HIGH",
+      "risk_percentage": 76.0
+    },
+    "recommendations": [
+      "\ud83d\udea8 Intensive discharge planning required",
+      "\ud83d\udea8 Follow-up within 24-48 hours",
+      "\ud83d\udea8 Arrange home health monitoring",
+      "\ud83d\udea8 Consider extended observation",
+      "\ud83d\udea8 Schedule specialist follow-up",
+      "\ud83d\udea8 Review all medications and comorbidities"
+    ],
+    "ai_explanation": [
+      "Older age increases readmission risk",
+      "Long hospital stay indicates serious condition",
+      "High comorbidity score shows multiple health issues",
+      "Diabetes may delay recovery and increase readmission risk",
+      "Heart disease increases complication risk",
+      "Smoking history can affect lung function and recovery"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.9
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.7
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.68
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.65
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.47
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.13
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-08T22:58:38.688956",
+      "features_used": {
+        "age": 68.0,
+        "length_of_stay": 14.0,
+        "num_medications": 2.0,
+        "num_diagnoses": 7.0,
+        "emergency_visits": 1.0,
+        "comorbidity_score": 9.0,
+        "diabetes": 1.0,
+        "heart_disease": 1.0,
+        "smoking": 1.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "20",
+      "name": "Lokesh",
+      "phone": "9861432096"
+    },
+    "prediction": {
+      "risk_probability": 0.793,
+      "risk_level": "HIGH",
+      "risk_percentage": 79.3
+    },
+    "recommendations": [
+      "\ud83d\udea8 Intensive discharge planning required",
+      "\ud83d\udea8 Follow-up within 24-48 hours",
+      "\ud83d\udea8 Arrange home health monitoring",
+      "\ud83d\udea8 Consider extended observation",
+      "\ud83d\udea8 Schedule specialist follow-up",
+      "\ud83d\udea8 Review all medications and comorbidities"
+    ],
+    "ai_explanation": [
+      "Older age increases readmission risk",
+      "Long hospital stay indicates serious condition",
+      "Many medications may increase complication risk",
+      "Frequent emergency visits show unstable health",
+      "High comorbidity score shows multiple health issues"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.8
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.67
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.66
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.6
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.37
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-08T22:58:38.626866",
+      "features_used": {
+        "age": 66.0,
+        "length_of_stay": 11.0,
+        "num_medications": 10.0,
+        "num_diagnoses": 2.0,
+        "emergency_visits": 4.0,
+        "comorbidity_score": 6.0,
+        "diabetes": 0.0,
+        "heart_disease": 0.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "19",
+      "name": "Pavan",
+      "phone": "9868673221"
+    },
+    "prediction": {
+      "risk_probability": 0.687,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 68.7
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Older age increases readmission risk",
+      "Many medications may increase complication risk",
+      "Frequent emergency visits show unstable health",
+      "High comorbidity score shows multiple health issues",
+      "Diabetes may delay recovery and increase readmission risk",
+      "Heart disease increases complication risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Medications",
+        "impact_score": 1.0
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.9
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.8
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.61
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.3
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.07
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-08T22:58:38.345343",
+      "features_used": {
+        "age": 61.0,
+        "length_of_stay": 2.0,
+        "num_medications": 15.0,
+        "num_diagnoses": 3.0,
+        "emergency_visits": 4.0,
+        "comorbidity_score": 9.0,
+        "diabetes": 1.0,
+        "heart_disease": 1.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "18",
+      "name": "Manoj",
+      "phone": "9843324526"
+    },
+    "prediction": {
+      "risk_probability": 0.7,
+      "risk_level": "HIGH",
+      "risk_percentage": 70.0
+    },
+    "recommendations": [
+      "\ud83d\udea8 Intensive discharge planning required",
+      "\ud83d\udea8 Follow-up within 24-48 hours",
+      "\ud83d\udea8 Arrange home health monitoring",
+      "\ud83d\udea8 Consider extended observation",
+      "\ud83d\udea8 Schedule specialist follow-up",
+      "\ud83d\udea8 Review all medications and comorbidities"
+    ],
+    "ai_explanation": [
+      "Older age increases readmission risk",
+      "Frequent emergency visits show unstable health",
+      "High comorbidity score shows multiple health issues",
+      "Diabetes may delay recovery and increase readmission risk",
+      "Heart disease increases complication risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 1.0
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.9
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.71
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.7
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.17
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-08T22:58:38.267761",
+      "features_used": {
+        "age": 71.0,
+        "length_of_stay": 5.0,
+        "num_medications": 6.0,
+        "num_diagnoses": 7.0,
+        "emergency_visits": 5.0,
+        "comorbidity_score": 9.0,
+        "diabetes": 1.0,
+        "heart_disease": 1.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "17",
+      "name": "Harish",
+      "phone": "9811835700"
+    },
+    "prediction": {
+      "risk_probability": 0.393,
+      "risk_level": "LOW",
+      "risk_percentage": 39.3
+    },
+    "recommendations": [
+      "\u2713 Standard discharge protocols",
+      "\u2713 Routine follow-up in 2 weeks",
+      "\u2713 Standard medication management"
+    ],
+    "ai_explanation": [
+      "Many medications may increase complication risk",
+      "Frequent emergency visits show unstable health",
+      "Smoking history can affect lung function and recovery"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 1.0
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.8
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.65
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.54
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.5
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.13
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.1
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-08T22:58:37.987906",
+      "features_used": {
+        "age": 54.0,
+        "length_of_stay": 4.0,
+        "num_medications": 12.0,
+        "num_diagnoses": 5.0,
+        "emergency_visits": 5.0,
+        "comorbidity_score": 1.0,
+        "diabetes": 0.0,
+        "heart_disease": 0.0,
+        "smoking": 1.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "16",
+      "name": "Sanjay",
+      "phone": "9838427679"
+    },
+    "prediction": {
+      "risk_probability": 0.487,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 48.7
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Long hospital stay indicates serious condition",
+      "Frequent emergency visits show unstable health",
+      "Diabetes may delay recovery and increase readmission risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.6
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.5
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.33
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.29
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-08T22:58:37.924071",
+      "features_used": {
+        "age": 29.0,
+        "length_of_stay": 15.0,
+        "num_medications": 5.0,
+        "num_diagnoses": 6.0,
+        "emergency_visits": 2.0,
+        "comorbidity_score": 4.0,
+        "diabetes": 1.0,
+        "heart_disease": 0.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "15",
+      "name": "Anil",
+      "phone": "9863636125"
+    },
+    "prediction": {
+      "risk_probability": 0.233,
+      "risk_level": "LOW",
+      "risk_percentage": 23.3
+    },
+    "recommendations": [
+      "\u2713 Standard discharge protocols",
+      "\u2713 Routine follow-up in 2 weeks",
+      "\u2713 Standard medication management"
+    ],
+    "ai_explanation": [
+      "Long hospital stay indicates serious condition"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Age",
+        "impact_score": 0.37
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.3
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.23
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-08T22:58:37.641636",
+      "features_used": {
+        "age": 37.0,
+        "length_of_stay": 7.0,
+        "num_medications": 3.0,
+        "num_diagnoses": 3.0,
+        "emergency_visits": 1.0,
+        "comorbidity_score": 2.0,
+        "diabetes": 0.0,
+        "heart_disease": 0.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "14",
+      "name": "Rohit",
+      "phone": "9865322525"
+    },
+    "prediction": {
+      "risk_probability": 0.613,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 61.3
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Long hospital stay indicates serious condition",
+      "Many medications may increase complication risk",
+      "Frequent emergency visits show unstable health"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.8
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.8
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.58
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.3
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.1
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-08T22:58:37.579260",
+      "features_used": {
+        "age": 58.0,
+        "length_of_stay": 9.0,
+        "num_medications": 12.0,
+        "num_diagnoses": 2.0,
+        "emergency_visits": 4.0,
+        "comorbidity_score": 1.0,
+        "diabetes": 0.0,
+        "heart_disease": 0.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "13",
+      "name": "Tarun",
+      "phone": "9870700543"
+    },
+    "prediction": {
+      "risk_probability": 0.38,
+      "risk_level": "LOW",
+      "risk_percentage": 38.0
+    },
+    "recommendations": [
+      "\u2713 Standard discharge protocols",
+      "\u2713 Routine follow-up in 2 weeks",
+      "\u2713 Standard medication management"
+    ],
+    "ai_explanation": [
+      "Long hospital stay indicates serious condition",
+      "Many medications may increase complication risk",
+      "Smoking history can affect lung function and recovery"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Medications",
+        "impact_score": 1.0
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.65
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.37
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.37
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.1
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-08T22:58:37.296089",
+      "features_used": {
+        "age": 37.0,
+        "length_of_stay": 11.0,
+        "num_medications": 15.0,
+        "num_diagnoses": 1.0,
+        "emergency_visits": 1.0,
+        "comorbidity_score": 4.0,
+        "diabetes": 0.0,
+        "heart_disease": 0.0,
+        "smoking": 1.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "12",
+      "name": "Deepak",
+      "phone": "9890696442"
+    },
+    "prediction": {
+      "risk_probability": 0.713,
+      "risk_level": "HIGH",
+      "risk_percentage": 71.3
+    },
+    "recommendations": [
+      "\ud83d\udea8 Intensive discharge planning required",
+      "\ud83d\udea8 Follow-up within 24-48 hours",
+      "\ud83d\udea8 Arrange home health monitoring",
+      "\ud83d\udea8 Consider extended observation",
+      "\ud83d\udea8 Schedule specialist follow-up",
+      "\ud83d\udea8 Review all medications and comorbidities"
+    ],
+    "ai_explanation": [
+      "Older age increases readmission risk",
+      "Long hospital stay indicates serious condition",
+      "High comorbidity score shows multiple health issues",
+      "Diabetes may delay recovery and increase readmission risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 1.0
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.8
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.71
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.47
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-08T22:58:37.222624",
+      "features_used": {
+        "age": 71.0,
+        "length_of_stay": 14.0,
+        "num_medications": 3.0,
+        "num_diagnoses": 8.0,
+        "emergency_visits": 1.0,
+        "comorbidity_score": 10.0,
+        "diabetes": 1.0,
+        "heart_disease": 0.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "11",
+      "name": "Arjun",
+      "phone": "9868528067"
+    },
+    "prediction": {
+      "risk_probability": 0.867,
+      "risk_level": "HIGH",
+      "risk_percentage": 86.7
+    },
+    "recommendations": [
+      "\ud83d\udea8 Intensive discharge planning required",
+      "\ud83d\udea8 Follow-up within 24-48 hours",
+      "\ud83d\udea8 Arrange home health monitoring",
+      "\ud83d\udea8 Consider extended observation",
+      "\ud83d\udea8 Schedule specialist follow-up",
+      "\ud83d\udea8 Review all medications and comorbidities"
+    ],
+    "ai_explanation": [
+      "Older age increases readmission risk",
+      "Many medications may increase complication risk",
+      "Frequent emergency visits show unstable health",
+      "High comorbidity score shows multiple health issues",
+      "Diabetes may delay recovery and increase readmission risk",
+      "Smoking history can affect lung function and recovery"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 1.0
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 1.0
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.66
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.65
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.5
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-08T22:58:36.955515",
+      "features_used": {
+        "age": 66.0,
+        "length_of_stay": 6.0,
+        "num_medications": 15.0,
+        "num_diagnoses": 5.0,
+        "emergency_visits": 2.0,
+        "comorbidity_score": 10.0,
+        "diabetes": 1.0,
+        "heart_disease": 0.0,
+        "smoking": 1.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "10",
+      "name": "Rahul",
+      "phone": "9853594517"
+    },
+    "prediction": {
+      "risk_probability": 0.5,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 50.0
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Older age increases readmission risk",
+      "Frequent emergency visits show unstable health",
+      "Diabetes may delay recovery and increase readmission risk",
+      "Heart disease increases complication risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.79
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.03
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-08T22:58:36.617286",
+      "features_used": {
+        "age": 79.0,
+        "length_of_stay": 1.0,
+        "num_medications": 6.0,
+        "num_diagnoses": 4.0,
+        "emergency_visits": 2.0,
+        "comorbidity_score": 2.0,
+        "diabetes": 1.0,
+        "heart_disease": 1.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "9",
+      "name": "Vikram",
+      "phone": "9858894431"
+    },
+    "prediction": {
+      "risk_probability": 0.687,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 68.7
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Older age increases readmission risk",
+      "Long hospital stay indicates serious condition",
+      "Many medications may increase complication risk",
+      "Diabetes may delay recovery and increase readmission risk",
+      "Heart disease increases complication risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.6
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.6
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.3
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-08T22:58:36.580942",
+      "features_used": {
+        "age": 60.0,
+        "length_of_stay": 12.0,
+        "num_medications": 9.0,
+        "num_diagnoses": 3.0,
+        "emergency_visits": 1.0,
+        "comorbidity_score": 2.0,
+        "diabetes": 1.0,
+        "heart_disease": 1.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "8",
+      "name": "Ajay",
+      "phone": "9840655984"
+    },
+    "prediction": {
+      "risk_probability": 0.687,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 68.7
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Long hospital stay indicates serious condition",
+      "Frequent emergency visits show unstable health",
+      "High comorbidity score shows multiple health issues",
+      "Smoking history can affect lung function and recovery"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 1.0
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.65
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.6
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.58
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.27
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-08T22:58:36.274101",
+      "features_used": {
+        "age": 58.0,
+        "length_of_stay": 8.0,
+        "num_medications": 3.0,
+        "num_diagnoses": 4.0,
+        "emergency_visits": 5.0,
+        "comorbidity_score": 6.0,
+        "diabetes": 0.0,
+        "heart_disease": 0.0,
+        "smoking": 1.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "6",
+      "name": "Mahesh",
+      "phone": "9860983193"
+    },
+    "prediction": {
+      "risk_probability": 0.647,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 64.7
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Older age increases readmission risk",
+      "Frequent emergency visits show unstable health",
+      "High comorbidity score shows multiple health issues",
+      "Diabetes may delay recovery and increase readmission risk",
+      "Heart disease increases complication risk",
+      "Smoking history can affect lung function and recovery"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 1.0
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.8
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.77
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.65
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.6
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.27
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.07
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-08T22:58:36.234283",
+      "features_used": {
+        "age": 77.0,
+        "length_of_stay": 2.0,
+        "num_medications": 4.0,
+        "num_diagnoses": 6.0,
+        "emergency_visits": 4.0,
+        "comorbidity_score": 10.0,
+        "diabetes": 1.0,
+        "heart_disease": 1.0,
+        "smoking": 1.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "5",
+      "name": "Suresh",
+      "phone": "9842301714"
+    },
+    "prediction": {
+      "risk_probability": 0.533,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 53.3
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Long hospital stay indicates serious condition",
+      "Frequent emergency visits show unstable health",
+      "Diabetes may delay recovery and increase readmission risk",
+      "Heart disease increases complication risk",
+      "Smoking history can affect lung function and recovery"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.65
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.6
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.6
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.39
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.33
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.1
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.07
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-08T22:58:35.939452",
+      "features_used": {
+        "age": 39.0,
+        "length_of_stay": 10.0,
+        "num_medications": 1.0,
+        "num_diagnoses": 6.0,
+        "emergency_visits": 3.0,
+        "comorbidity_score": 1.0,
+        "diabetes": 1.0,
+        "heart_disease": 1.0,
+        "smoking": 1.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "4",
+      "name": "Kiran",
+      "phone": "9818257767"
+    },
+    "prediction": {
+      "risk_probability": 0.627,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 62.7
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Long hospital stay indicates serious condition",
+      "Many medications may increase complication risk",
+      "Frequent emergency visits show unstable health",
+      "High comorbidity score shows multiple health issues",
+      "Heart disease increases complication risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 1.0
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 1.0
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.8
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.37
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.37
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-08T22:58:35.884702",
+      "features_used": {
+        "age": 37.0,
+        "length_of_stay": 11.0,
+        "num_medications": 15.0,
+        "num_diagnoses": 2.0,
+        "emergency_visits": 4.0,
+        "comorbidity_score": 10.0,
+        "diabetes": 0.0,
+        "heart_disease": 1.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "3",
+      "name": "Aman",
+      "phone": "9877140088"
+    },
+    "prediction": {
+      "risk_probability": 0.473,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 47.3
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "ai_explanation": [
+      "Older age increases readmission risk",
+      "Frequent emergency visits show unstable health"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Age",
+        "impact_score": 0.71
+      },
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.6
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.6
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.4
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.3
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.07
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-08T22:58:35.595397",
+      "features_used": {
+        "age": 71.0,
+        "length_of_stay": 2.0,
+        "num_medications": 6.0,
+        "num_diagnoses": 6.0,
+        "emergency_visits": 3.0,
+        "comorbidity_score": 3.0,
+        "diabetes": 0.0,
+        "heart_disease": 0.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "2",
+      "name": "Ravi",
+      "phone": "9856659067"
+    },
+    "prediction": {
+      "risk_probability": 0.887,
+      "risk_level": "HIGH",
+      "risk_percentage": 88.7
+    },
+    "recommendations": [
+      "\ud83d\udea8 Intensive discharge planning required",
+      "\ud83d\udea8 Follow-up within 24-48 hours",
+      "\ud83d\udea8 Arrange home health monitoring",
+      "\ud83d\udea8 Consider extended observation",
+      "\ud83d\udea8 Schedule specialist follow-up",
+      "\ud83d\udea8 Review all medications and comorbidities"
+    ],
+    "ai_explanation": [
+      "Older age increases readmission risk",
+      "Long hospital stay indicates serious condition",
+      "Many medications may increase complication risk",
+      "Frequent emergency visits show unstable health",
+      "Diabetes may delay recovery and increase readmission risk",
+      "Heart disease increases complication risk"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 1.0
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.75
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.73
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.6
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.6
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.43
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-08T22:58:35.254455",
+      "features_used": {
+        "age": 60.0,
+        "length_of_stay": 13.0,
+        "num_medications": 11.0,
+        "num_diagnoses": 6.0,
+        "emergency_visits": 5.0,
+        "comorbidity_score": 2.0,
+        "diabetes": 1.0,
+        "heart_disease": 1.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "1",
+      "name": "Ram",
+      "phone": "9835460719"
+    },
+    "prediction": {
+      "risk_probability": 0.793,
+      "risk_level": "HIGH",
+      "risk_percentage": 79.3
+    },
+    "recommendations": [
+      "\ud83d\udea8 Intensive discharge planning required",
+      "\ud83d\udea8 Follow-up within 24-48 hours",
+      "\ud83d\udea8 Arrange home health monitoring",
+      "\ud83d\udea8 Consider extended observation",
+      "\ud83d\udea8 Schedule specialist follow-up",
+      "\ud83d\udea8 Review all medications and comorbidities"
+    ],
+    "ai_explanation": [
+      "Older age increases readmission risk",
+      "Long hospital stay indicates serious condition",
+      "Many medications may increase complication risk",
+      "Frequent emergency visits show unstable health",
+      "High comorbidity score shows multiple health issues",
+      "Smoking history can affect lung function and recovery"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 1.0
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 1.0
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.85
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.7
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.65
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.5
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-08T22:58:35.216947",
+      "features_used": {
+        "age": 85.0,
+        "length_of_stay": 15.0,
+        "num_medications": 15.0,
+        "num_diagnoses": 2.0,
+        "emergency_visits": 5.0,
+        "comorbidity_score": 7.0,
+        "diabetes": 0.0,
+        "heart_disease": 0.0,
+        "smoking": 1.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "p12",
+      "name": "ram",
+      "phone": "687979797857"
+    },
+    "prediction": {
+      "risk_probability": 0.247,
+      "risk_level": "LOW",
+      "risk_percentage": 24.7
+    },
+    "recommendations": [
+      "\u2713 Standard discharge protocols",
+      "\u2713 Routine follow-up in 2 weeks",
+      "\u2713 Standard medication management"
+    ],
+    "ai_explanation": [
+      "Frequent emergency visits show unstable health"
+    ],
+    "risk_factor_ranking": [
+      {
+        "factor": "Emergency Visits",
+        "impact_score": 0.6
+      },
+      {
+        "factor": "Diagnoses",
+        "impact_score": 0.6
+      },
+      {
+        "factor": "Age",
+        "impact_score": 0.32
+      },
+      {
+        "factor": "Comorbidity Score",
+        "impact_score": 0.3
+      },
+      {
+        "factor": "Medications",
+        "impact_score": 0.2
+      },
+      {
+        "factor": "Length of Stay",
+        "impact_score": 0.07
+      },
+      {
+        "factor": "Diabetes",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Heart Disease",
+        "impact_score": 0.0
+      },
+      {
+        "factor": "Smoking History",
+        "impact_score": 0.0
+      }
+    ],
+    "details": {
+      "timestamp": "2026-05-09T10:15:57.370200",
+      "features_used": {
+        "age": 32.0,
+        "length_of_stay": 2.0,
+        "num_medications": 3.0,
+        "num_diagnoses": 6.0,
+        "emergency_visits": 3.0,
+        "comorbidity_score": 3.0,
+        "diabetes": 0.0,
+        "heart_disease": 0.0,
+        "smoking": 0.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "p12",
+      "name": "ram",
+      "phone": null
+    },
+    "prediction": {
+      "risk_probability": 0.69,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 69.0
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T18:34:06.824963",
+      "features_used": {
+        "age": 78.0,
+        "length_of_stay": 4.0,
+        "num_medications": 2.0,
+        "num_diagnoses": 5.0,
+        "emergency_visits": 4.0,
+        "comorbidity_score": 7.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P1030",
+      "name": "Bhavana Rao",
+      "phone": "9354091188"
+    },
+    "prediction": {
+      "risk_probability": 0.97,
+      "risk_level": "HIGH",
+      "risk_percentage": 97.0
+    },
+    "recommendations": [
+      "\ud83d\udea8 Intensive discharge planning required",
+      "\ud83d\udea8 Follow-up within 24-48 hours",
+      "\ud83d\udea8 Arrange home health monitoring",
+      "\ud83d\udea8 Consider extended observation",
+      "\ud83d\udea8 Schedule specialist follow-up",
+      "\ud83d\udea8 Review all medications and comorbidities"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T18:35:36.994489",
+      "features_used": {
+        "age": 73.0,
+        "length_of_stay": 10.0,
+        "num_medications": 7.0,
+        "num_diagnoses": 5.0,
+        "emergency_visits": 4.0,
+        "comorbidity_score": 13.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P1029",
+      "name": "Akash Malhotra",
+      "phone": "9684477881"
+    },
+    "prediction": {
+      "risk_probability": 0.45,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 45.0
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T18:35:36.852712",
+      "features_used": {
+        "age": 79.0,
+        "length_of_stay": 1.0,
+        "num_medications": 1.0,
+        "num_diagnoses": 2.0,
+        "emergency_visits": 3.0,
+        "comorbidity_score": 4.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P1028",
+      "name": "Ishita Chawla",
+      "phone": "9767285820"
+    },
+    "prediction": {
+      "risk_probability": 0.54,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 54.0
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T18:35:36.648714",
+      "features_used": {
+        "age": 43.0,
+        "length_of_stay": 8.0,
+        "num_medications": 4.0,
+        "num_diagnoses": 4.0,
+        "emergency_visits": 3.0,
+        "comorbidity_score": 2.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P1027",
+      "name": "Suresh Menon",
+      "phone": "9972554063"
+    },
+    "prediction": {
+      "risk_probability": 0.62,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 62.0
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T18:35:36.509441",
+      "features_used": {
+        "age": 37.0,
+        "length_of_stay": 13.0,
+        "num_medications": 4.0,
+        "num_diagnoses": 6.0,
+        "emergency_visits": 5.0,
+        "comorbidity_score": 4.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P1026",
+      "name": "Tanvi Desai",
+      "phone": "9957349720"
+    },
+    "prediction": {
+      "risk_probability": 0.34,
+      "risk_level": "LOW",
+      "risk_percentage": 34.0
+    },
+    "recommendations": [
+      "\u2713 Standard discharge protocols",
+      "\u2713 Routine follow-up in 2 weeks",
+      "\u2713 Standard medication management"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T18:35:36.305997",
+      "features_used": {
+        "age": 49.0,
+        "length_of_stay": 10.0,
+        "num_medications": 2.0,
+        "num_diagnoses": 1.0,
+        "emergency_visits": 1.0,
+        "comorbidity_score": 10.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P1025",
+      "name": "Harish Naik",
+      "phone": "9799156842"
+    },
+    "prediction": {
+      "risk_probability": 0.81,
+      "risk_level": "HIGH",
+      "risk_percentage": 81.0
+    },
+    "recommendations": [
+      "\ud83d\udea8 Intensive discharge planning required",
+      "\ud83d\udea8 Follow-up within 24-48 hours",
+      "\ud83d\udea8 Arrange home health monitoring",
+      "\ud83d\udea8 Consider extended observation",
+      "\ud83d\udea8 Schedule specialist follow-up",
+      "\ud83d\udea8 Review all medications and comorbidities"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T18:35:36.165033",
+      "features_used": {
+        "age": 69.0,
+        "length_of_stay": 19.0,
+        "num_medications": 10.0,
+        "num_diagnoses": 6.0,
+        "emergency_visits": 1.0,
+        "comorbidity_score": 9.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P1024",
+      "name": "Ritika Sinha",
+      "phone": "9365022120"
+    },
+    "prediction": {
+      "risk_probability": 0.85,
+      "risk_level": "HIGH",
+      "risk_percentage": 85.0
+    },
+    "recommendations": [
+      "\ud83d\udea8 Intensive discharge planning required",
+      "\ud83d\udea8 Follow-up within 24-48 hours",
+      "\ud83d\udea8 Arrange home health monitoring",
+      "\ud83d\udea8 Consider extended observation",
+      "\ud83d\udea8 Schedule specialist follow-up",
+      "\ud83d\udea8 Review all medications and comorbidities"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T18:35:35.962797",
+      "features_used": {
+        "age": 83.0,
+        "length_of_stay": 8.0,
+        "num_medications": 10.0,
+        "num_diagnoses": 4.0,
+        "emergency_visits": 4.0,
+        "comorbidity_score": 2.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P1023",
+      "name": "Naveen Gowda",
+      "phone": "9575410417"
+    },
+    "prediction": {
+      "risk_probability": 0.74,
+      "risk_level": "HIGH",
+      "risk_percentage": 74.0
+    },
+    "recommendations": [
+      "\ud83d\udea8 Intensive discharge planning required",
+      "\ud83d\udea8 Follow-up within 24-48 hours",
+      "\ud83d\udea8 Arrange home health monitoring",
+      "\ud83d\udea8 Consider extended observation",
+      "\ud83d\udea8 Schedule specialist follow-up",
+      "\ud83d\udea8 Review all medications and comorbidities"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T18:35:35.820247",
+      "features_used": {
+        "age": 76.0,
+        "length_of_stay": 19.0,
+        "num_medications": 7.0,
+        "num_diagnoses": 3.0,
+        "emergency_visits": 1.0,
+        "comorbidity_score": 7.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P1022",
+      "name": "Meera Pillai",
+      "phone": "9156632641"
+    },
+    "prediction": {
+      "risk_probability": 0.97,
+      "risk_level": "HIGH",
+      "risk_percentage": 97.0
+    },
+    "recommendations": [
+      "\ud83d\udea8 Intensive discharge planning required",
+      "\ud83d\udea8 Follow-up within 24-48 hours",
+      "\ud83d\udea8 Arrange home health monitoring",
+      "\ud83d\udea8 Consider extended observation",
+      "\ud83d\udea8 Schedule specialist follow-up",
+      "\ud83d\udea8 Review all medications and comorbidities"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T18:35:35.617833",
+      "features_used": {
+        "age": 68.0,
+        "length_of_stay": 17.0,
+        "num_medications": 7.0,
+        "num_diagnoses": 6.0,
+        "emergency_visits": 2.0,
+        "comorbidity_score": 9.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P1021",
+      "name": "Aditya Roy",
+      "phone": "9743118482"
+    },
+    "prediction": {
+      "risk_probability": 0.79,
+      "risk_level": "HIGH",
+      "risk_percentage": 79.0
+    },
+    "recommendations": [
+      "\ud83d\udea8 Intensive discharge planning required",
+      "\ud83d\udea8 Follow-up within 24-48 hours",
+      "\ud83d\udea8 Arrange home health monitoring",
+      "\ud83d\udea8 Consider extended observation",
+      "\ud83d\udea8 Schedule specialist follow-up",
+      "\ud83d\udea8 Review all medications and comorbidities"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T18:35:35.462500",
+      "features_used": {
+        "age": 67.0,
+        "length_of_stay": 15.0,
+        "num_medications": 8.0,
+        "num_diagnoses": 1.0,
+        "emergency_visits": 2.0,
+        "comorbidity_score": 13.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P1020",
+      "name": "Shreya Kulkarni",
+      "phone": "9223644702"
+    },
+    "prediction": {
+      "risk_probability": 0.36,
+      "risk_level": "LOW",
+      "risk_percentage": 36.0
+    },
+    "recommendations": [
+      "\u2713 Standard discharge protocols",
+      "\u2713 Routine follow-up in 2 weeks",
+      "\u2713 Standard medication management"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T18:35:35.272560",
+      "features_used": {
+        "age": 65.0,
+        "length_of_stay": 8.0,
+        "num_medications": 3.0,
+        "num_diagnoses": 2.0,
+        "emergency_visits": 1.0,
+        "comorbidity_score": 3.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P1019",
+      "name": "Varun Bhat",
+      "phone": "9352046944"
+    },
+    "prediction": {
+      "risk_probability": 0.62,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 62.0
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T18:35:35.119119",
+      "features_used": {
+        "age": 30.0,
+        "length_of_stay": 2.0,
+        "num_medications": 7.0,
+        "num_diagnoses": 6.0,
+        "emergency_visits": 4.0,
+        "comorbidity_score": 15.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P1018",
+      "name": "Nikita Jain",
+      "phone": "9995813575"
+    },
+    "prediction": {
+      "risk_probability": 0.86,
+      "risk_level": "HIGH",
+      "risk_percentage": 86.0
+    },
+    "recommendations": [
+      "\ud83d\udea8 Intensive discharge planning required",
+      "\ud83d\udea8 Follow-up within 24-48 hours",
+      "\ud83d\udea8 Arrange home health monitoring",
+      "\ud83d\udea8 Consider extended observation",
+      "\ud83d\udea8 Schedule specialist follow-up",
+      "\ud83d\udea8 Review all medications and comorbidities"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T18:35:34.921926",
+      "features_used": {
+        "age": 59.0,
+        "length_of_stay": 20.0,
+        "num_medications": 6.0,
+        "num_diagnoses": 6.0,
+        "emergency_visits": 2.0,
+        "comorbidity_score": 15.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P1016",
+      "name": "Asha Shetty",
+      "phone": "9773926934"
+    },
+    "prediction": {
+      "risk_probability": 0.68,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 68.0
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T18:35:34.776755",
+      "features_used": {
+        "age": 36.0,
+        "length_of_stay": 13.0,
+        "num_medications": 8.0,
+        "num_diagnoses": 3.0,
+        "emergency_visits": 4.0,
+        "comorbidity_score": 4.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P1015",
+      "name": "Manoj Gupta",
+      "phone": "9610413790"
+    },
+    "prediction": {
+      "risk_probability": 0.56,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 56.0
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T18:35:34.570656",
+      "features_used": {
+        "age": 50.0,
+        "length_of_stay": 13.0,
+        "num_medications": 1.0,
+        "num_diagnoses": 5.0,
+        "emergency_visits": 3.0,
+        "comorbidity_score": 1.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P1013",
+      "name": "Sanjay Yadav",
+      "phone": "9787506705"
+    },
+    "prediction": {
+      "risk_probability": 0.5,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 50.0
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T18:35:34.435058",
+      "features_used": {
+        "age": 26.0,
+        "length_of_stay": 8.0,
+        "num_medications": 5.0,
+        "num_diagnoses": 2.0,
+        "emergency_visits": 3.0,
+        "comorbidity_score": 11.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P1012",
+      "name": "Neha Kapoor",
+      "phone": "9581603943"
+    },
+    "prediction": {
+      "risk_probability": 0.86,
+      "risk_level": "HIGH",
+      "risk_percentage": 86.0
+    },
+    "recommendations": [
+      "\ud83d\udea8 Intensive discharge planning required",
+      "\ud83d\udea8 Follow-up within 24-48 hours",
+      "\ud83d\udea8 Arrange home health monitoring",
+      "\ud83d\udea8 Consider extended observation",
+      "\ud83d\udea8 Schedule specialist follow-up",
+      "\ud83d\udea8 Review all medications and comorbidities"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T18:35:34.220593",
+      "features_used": {
+        "age": 69.0,
+        "length_of_stay": 13.0,
+        "num_medications": 3.0,
+        "num_diagnoses": 4.0,
+        "emergency_visits": 5.0,
+        "comorbidity_score": 8.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P1011",
+      "name": "Kiran Rao",
+      "phone": "9562806161"
+    },
+    "prediction": {
+      "risk_probability": 0.36,
+      "risk_level": "LOW",
+      "risk_percentage": 36.0
+    },
+    "recommendations": [
+      "\u2713 Standard discharge protocols",
+      "\u2713 Routine follow-up in 2 weeks",
+      "\u2713 Standard medication management"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T18:35:34.091172",
+      "features_used": {
+        "age": 21.0,
+        "length_of_stay": 12.0,
+        "num_medications": 3.0,
+        "num_diagnoses": 2.0,
+        "emergency_visits": 4.0,
+        "comorbidity_score": 1.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P1010",
+      "name": "Pooja Mehta",
+      "phone": "9666374016"
+    },
+    "prediction": {
+      "risk_probability": 0.75,
+      "risk_level": "HIGH",
+      "risk_percentage": 75.0
+    },
+    "recommendations": [
+      "\ud83d\udea8 Intensive discharge planning required",
+      "\ud83d\udea8 Follow-up within 24-48 hours",
+      "\ud83d\udea8 Arrange home health monitoring",
+      "\ud83d\udea8 Consider extended observation",
+      "\ud83d\udea8 Schedule specialist follow-up",
+      "\ud83d\udea8 Review all medications and comorbidities"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T18:35:33.842607",
+      "features_used": {
+        "age": 65.0,
+        "length_of_stay": 6.0,
+        "num_medications": 9.0,
+        "num_diagnoses": 6.0,
+        "emergency_visits": 1.0,
+        "comorbidity_score": 8.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P1009",
+      "name": "Amit Joshi",
+      "phone": "9668584723"
+    },
+    "prediction": {
+      "risk_probability": 0.51,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 51.0
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T18:35:33.747454",
+      "features_used": {
+        "age": 47.0,
+        "length_of_stay": 17.0,
+        "num_medications": 3.0,
+        "num_diagnoses": 3.0,
+        "emergency_visits": 3.0,
+        "comorbidity_score": 3.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P1007",
+      "name": "Rohan Das",
+      "phone": "9517383392"
+    },
+    "prediction": {
+      "risk_probability": 0.99,
+      "risk_level": "HIGH",
+      "risk_percentage": 99.0
+    },
+    "recommendations": [
+      "\ud83d\udea8 Intensive discharge planning required",
+      "\ud83d\udea8 Follow-up within 24-48 hours",
+      "\ud83d\udea8 Arrange home health monitoring",
+      "\ud83d\udea8 Consider extended observation",
+      "\ud83d\udea8 Schedule specialist follow-up",
+      "\ud83d\udea8 Review all medications and comorbidities"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T18:35:33.482719",
+      "features_used": {
+        "age": 73.0,
+        "length_of_stay": 7.0,
+        "num_medications": 10.0,
+        "num_diagnoses": 6.0,
+        "emergency_visits": 2.0,
+        "comorbidity_score": 15.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P1006",
+      "name": "Anjali Nair",
+      "phone": "9456906148"
+    },
+    "prediction": {
+      "risk_probability": 0.84,
+      "risk_level": "HIGH",
+      "risk_percentage": 84.0
+    },
+    "recommendations": [
+      "\ud83d\udea8 Intensive discharge planning required",
+      "\ud83d\udea8 Follow-up within 24-48 hours",
+      "\ud83d\udea8 Arrange home health monitoring",
+      "\ud83d\udea8 Consider extended observation",
+      "\ud83d\udea8 Schedule specialist follow-up",
+      "\ud83d\udea8 Review all medications and comorbidities"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T18:35:33.404007",
+      "features_used": {
+        "age": 65.0,
+        "length_of_stay": 19.0,
+        "num_medications": 9.0,
+        "num_diagnoses": 6.0,
+        "emergency_visits": 4.0,
+        "comorbidity_score": 2.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P1005",
+      "name": "Vikram Singh",
+      "phone": "9909199737"
+    },
+    "prediction": {
+      "risk_probability": 0.65,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 65.0
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T18:35:33.137454",
+      "features_used": {
+        "age": 53.0,
+        "length_of_stay": 1.0,
+        "num_medications": 9.0,
+        "num_diagnoses": 3.0,
+        "emergency_visits": 5.0,
+        "comorbidity_score": 8.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P1004",
+      "name": "Sneha Reddy",
+      "phone": "9256739571"
+    },
+    "prediction": {
+      "risk_probability": 0.54,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 54.0
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T18:35:33.059592",
+      "features_used": {
+        "age": 37.0,
+        "length_of_stay": 16.0,
+        "num_medications": 2.0,
+        "num_diagnoses": 4.0,
+        "emergency_visits": 4.0,
+        "comorbidity_score": 1.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P1003",
+      "name": "Rahul Verma",
+      "phone": "9683085072"
+    },
+    "prediction": {
+      "risk_probability": 0.46,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 46.0
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T18:35:32.794664",
+      "features_used": {
+        "age": 62.0,
+        "length_of_stay": 4.0,
+        "num_medications": 4.0,
+        "num_diagnoses": 3.0,
+        "emergency_visits": 1.0,
+        "comorbidity_score": 9.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P1002",
+      "name": "Priya Sharma",
+      "phone": "9633702458"
+    },
+    "prediction": {
+      "risk_probability": 0.57,
+      "risk_level": "MEDIUM",
+      "risk_percentage": 57.0
+    },
+    "recommendations": [
+      "\u26a0 Enhanced discharge planning",
+      "\u26a0 Follow-up within 5-7 days",
+      "\u26a0 Consider home health services",
+      "\u26a0 Review medication compliance"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T18:35:32.444156",
+      "features_used": {
+        "age": 24.0,
+        "length_of_stay": 19.0,
+        "num_medications": 10.0,
+        "num_diagnoses": 1.0,
+        "emergency_visits": 4.0,
+        "comorbidity_score": 4.0
+      },
+      "model_confidence": "High"
+    }
+  },
+  {
+    "patient": {
+      "id": "P1001",
+      "name": "Arjun Kumar",
+      "phone": "9517788200"
+    },
+    "prediction": {
+      "risk_probability": 0.7,
+      "risk_level": "HIGH",
+      "risk_percentage": 70.0
+    },
+    "recommendations": [
+      "\ud83d\udea8 Intensive discharge planning required",
+      "\ud83d\udea8 Follow-up within 24-48 hours",
+      "\ud83d\udea8 Arrange home health monitoring",
+      "\ud83d\udea8 Consider extended observation",
+      "\ud83d\udea8 Schedule specialist follow-up",
+      "\ud83d\udea8 Review all medications and comorbidities"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T18:35:32.402586",
+      "features_used": {
+        "age": 64.0,
+        "length_of_stay": 3.0,
+        "num_medications": 6.0,
+        "num_diagnoses": 5.0,
+        "emergency_visits": 3.0,
+        "comorbidity_score": 12.0
+      },
+      "model_confidence": "Very High"
+    }
+  },
+  {
+    "patient": {
+      "id": "120",
+      "name": "ram",
+      "phone": "687979797857"
+    },
+    "prediction": {
+      "risk_probability": 0.288,
+      "risk_level": "LOW",
+      "risk_percentage": 28.8
+    },
+    "recommendations": [
+      "\u2713 Standard discharge protocols",
+      "\u2713 Routine follow-up in 2 weeks",
+      "\u2713 Standard medication management"
+    ],
+    "details": {
+      "timestamp": "2026-05-08T15:44:21.077758",
+      "features_used": {
+        "age": 44.0,
+        "length_of_stay": 1.0,
+        "num_medications": 3.0,
+        "num_diagnoses": 3.0,
+        "emergency_visits": 1.0,
+        "comorbidity_score": 5.0
+      },
+      "model_confidence": "Very High"
+    }
+  }
+]

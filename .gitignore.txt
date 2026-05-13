@@ -1,0 +1,8 @@
+node_modules/
+venv/
+dist/
+build/
+__pycache__/
+*.pyc
+hospital.db
+.env

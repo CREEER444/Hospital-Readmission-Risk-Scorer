@@ -1,0 +1,16 @@
+{
+  "appId": "com.hospital.readmission",
+  "productName": "Hospital Readmission Risk Scorer",
+  "files": [
+    "build/**/*",
+    "main.js",
+    "package.json"
+  ],
+  "win": {
+    "target": "nsis"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true
+  }
+}

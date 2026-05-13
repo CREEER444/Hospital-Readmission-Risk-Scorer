@@ -1,0 +1,37 @@
+Add to formData initial state:
+diabetes: '0',
+heart_disease: '0',
+smoking: '0',
+
+Add inside patient form:
+
+<div className="form-row">
+  <div className="form-group">
+    <label htmlFor="diabetes">Diabetes</label>
+    <select id="diabetes" name="diabetes" value={formData.diabetes} onChange={handleInputChange}>
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+  </div>
+
+  <div className="form-group">
+    <label htmlFor="heart_disease">Heart Disease</label>
+    <select id="heart_disease" name="heart_disease" value={formData.heart_disease} onChange={handleInputChange}>
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+  </div>
+</div>
+
+<div className="form-group">
+  <label htmlFor="smoking">Smoking History</label>
+  <select id="smoking" name="smoking" value={formData.smoking} onChange={handleInputChange}>
+    <option value="0">No</option>
+    <option value="1">Yes</option>
+  </select>
+</div>
+
+Add inside fetch body:
+diabetes: parseInt(formData.diabetes),
+heart_disease: parseInt(formData.heart_disease),
+smoking: parseInt(formData.smoking),

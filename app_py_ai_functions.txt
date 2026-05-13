@@ -1,0 +1,64 @@
+# =========================
+# AI EXPLANATION FUNCTIONS
+# =========================
+
+def explain_risk(patient_data):
+    factors = []
+
+    if patient_data["age"] >= 60:
+        factors.append("Older age increases readmission risk")
+
+    if patient_data["length_of_stay"] >= 7:
+        factors.append("Long hospital stay indicates serious condition")
+
+    if patient_data["num_medications"] >= 8:
+        factors.append("Many medications may increase complications")
+
+    if patient_data["emergency_visits"] >= 2:
+        factors.append("Frequent emergency visits show unstable health")
+
+    if patient_data["comorbidity_score"] >= 5:
+        factors.append("High comorbidity score shows multiple health issues")
+
+    if not factors:
+        factors.append("Patient has fewer major risk factors")
+
+    return factors
+
+
+# =========================
+# RISK FACTOR RANKING
+# =========================
+
+def rank_risk_factors(patient_data):
+
+    scores = {
+        "Age": patient_data["age"] / 100,
+        "Length of Stay": patient_data["length_of_stay"] / 30,
+        "Medications": patient_data["num_medications"] / 15,
+        "Diagnoses": patient_data["num_diagnoses"] / 10,
+        "Emergency Visits": patient_data["emergency_visits"] / 5,
+        "Comorbidity Score": patient_data["comorbidity_score"] / 10
+    }
+
+    ranked = sorted(
+        scores.items(),
+        key=lambda x: x[1],
+        reverse=True
+    )
+
+    return [
+        {
+            "factor": factor,
+            "impact_score": round(score, 2)
+        }
+        for factor, score in ranked
+    ]
+
+
+# =========================
+# ADD INSIDE API RESPONSE
+# =========================
+
+# "ai_explanation": explain_risk(data),
+# "risk_factor_ranking": rank_risk_factors(data),

@@ -1,0 +1,67 @@
+# Add these to app.py
+
+FEATURE_NAMES = [
+    "age",
+    "length_of_stay",
+    "num_medications",
+    "num_diagnoses",
+    "emergency_visits",
+    "comorbidity_score",
+    "diabetes",
+    "heart_disease",
+    "smoking"
+]
+
+def explain_risk(patient_data):
+    factors = []
+
+    if float(patient_data.get("age", 0)) >= 60:
+        factors.append("Older age increases readmission risk")
+
+    if float(patient_data.get("length_of_stay", 0)) >= 7:
+        factors.append("Long hospital stay indicates serious condition")
+
+    if float(patient_data.get("num_medications", 0)) >= 8:
+        factors.append("Many medications may increase complication risk")
+
+    if float(patient_data.get("emergency_visits", 0)) >= 2:
+        factors.append("Frequent emergency visits show unstable health")
+
+    if float(patient_data.get("comorbidity_score", 0)) >= 5:
+        factors.append("High comorbidity score shows multiple health issues")
+
+    if int(patient_data.get("diabetes", 0)) == 1:
+        factors.append("Diabetes may delay recovery and increase readmission risk")
+
+    if int(patient_data.get("heart_disease", 0)) == 1:
+        factors.append("Heart disease increases complication risk")
+
+    if int(patient_data.get("smoking", 0)) == 1:
+        factors.append("Smoking history can affect lung function and recovery")
+
+    if not factors:
+        factors.append("Patient has fewer major risk factors")
+
+    return factors
+
+
+def rank_risk_factors(patient_data):
+    scores = {
+        "Comorbidity Score": float(patient_data.get("comorbidity_score", 0)) / 10,
+        "Length of Stay": float(patient_data.get("length_of_stay", 0)) / 30,
+        "Emergency Visits": float(patient_data.get("emergency_visits", 0)) / 5,
+        "Medications": float(patient_data.get("num_medications", 0)) / 15,
+        "Age": float(patient_data.get("age", 0)) / 100,
+        "Diagnoses": float(patient_data.get("num_diagnoses", 0)) / 10,
+        "Diabetes": int(patient_data.get("diabetes", 0)) * 0.75,
+        "Heart Disease": int(patient_data.get("heart_disease", 0)) * 0.85,
+        "Smoking History": int(patient_data.get("smoking", 0)) * 0.65
+    }
+
+    ranked = sorted(scores.items(), key=lambda x: x[1], reverse=True)
+
+    return [{"factor": factor, "impact_score": round(score, 2)} for factor, score in ranked]
+
+# Add inside response:
+# "ai_explanation": explain_risk(data),
+# "risk_factor_ranking": rank_risk_factors(data),

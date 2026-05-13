@@ -1,0 +1,100 @@
+.medicine-page { padding: 0.3rem; }
+.medicine-hero {
+  display: flex; justify-content: space-between; gap: 1.5rem; align-items: center;
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.98), rgba(8, 145, 178, 0.95));
+  color: white; border-radius: 30px; padding: 2rem; margin-bottom: 1.2rem;
+  box-shadow: 0 24px 55px rgba(15, 23, 42, 0.16);
+}
+.medicine-hero h2 { margin: 0; font-size: 2rem; letter-spacing: -0.04em; }
+.medicine-hero p { margin: 0.45rem 0 0; opacity: 0.9; font-weight: 650; }
+.medicine-hero-stats { display: flex; gap: 0.8rem; flex-wrap: wrap; }
+.medicine-hero-stats div {
+  min-width: 95px; text-align: center; padding: 1rem; border-radius: 20px;
+  background: rgba(255,255,255,0.14); border: 1px solid rgba(255,255,255,0.24);
+}
+.medicine-hero-stats strong { display: block; font-size: 2rem; line-height: 1; }
+.medicine-hero-stats span { font-size: 0.82rem; opacity: 0.82; font-weight: 800; }
+
+.medicine-warning {
+  background: #fff7ed; color: #9a3412; border: 1px solid #fed7aa;
+  border-radius: 18px; padding: 1rem; margin-bottom: 1.2rem; font-weight: 850;
+}
+.medicine-layout { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(320px, 0.65fr); gap: 1.5rem; align-items: start; }
+.medicine-controls { display: grid; grid-template-columns: 1fr 240px; gap: 1rem; margin-bottom: 1rem; }
+.medicine-controls input, .medicine-controls select, .ai-recommend-head select {
+  width: 100%; min-height: 54px; padding: 0.9rem 1rem; border: 1px solid #dbe4ee;
+  border-radius: 18px; background: linear-gradient(180deg, #ffffff, #f8fafc);
+  color: #0f172a; font-size: 1rem; font-weight: 800; outline: none;
+}
+.ai-recommend-card, .medicine-cart-card {
+  background: rgba(255,255,255,0.96); border: 1px solid rgba(226,232,240,0.9);
+  border-radius: 28px; padding: 1.35rem; box-shadow: 0 20px 45px rgba(15, 23, 42, 0.08);
+}
+.ai-recommend-card { margin-bottom: 1rem; }
+.ai-recommend-head { display: flex; justify-content: space-between; gap: 1rem; align-items: center; margin-bottom: 1rem; }
+.ai-recommend-head h3, .medicine-cart-card h3 { margin: 0; color: #0f172a; letter-spacing: -0.03em; }
+.recommend-pills { display: flex; gap: 0.7rem; flex-wrap: wrap; }
+.recommend-pills button {
+  border: 1px solid #bae6fd; background: #ecfeff; color: #155e75;
+  border-radius: 999px; padding: 0.65rem 0.9rem; font-weight: 900; cursor: pointer;
+}
+.medicine-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; }
+.medicine-card {
+  background: rgba(255,255,255,0.96); border: 1px solid #e2e8f0; border-radius: 24px;
+  padding: 1.25rem; box-shadow: 0 14px 30px rgba(15,23,42,0.06); transition: all 0.24s ease;
+}
+.medicine-card:hover { transform: translateY(-5px); box-shadow: 0 22px 45px rgba(15,23,42,0.12); }
+.medicine-card-top { display: flex; justify-content: space-between; gap: 1rem; align-items: center; margin-bottom: 0.85rem; }
+.medicine-icon {
+  width: 52px; height: 52px; border-radius: 18px; display: grid; place-items: center;
+  background: linear-gradient(135deg, #e0f2fe, #ccfbf1); font-size: 1.7rem;
+}
+.medicine-card-top span {
+  background: #f0f9ff; color: #0369a1; border: 1px solid #bae6fd;
+  border-radius: 999px; padding: 0.4rem 0.7rem; font-size: 0.76rem; font-weight: 900;
+}
+.medicine-card h3 { color: #0f172a; margin: 0 0 0.5rem; }
+.medicine-card p { color: #475569; font-weight: 650; min-height: 48px; }
+.medicine-alert {
+  background: #fff7ed; color: #9a3412; border: 1px solid #fed7aa;
+  border-radius: 16px; padding: 0.75rem; margin: 0.9rem 0; font-size: 0.88rem; font-weight: 800;
+}
+.medicine-price-row { display: flex; justify-content: space-between; gap: 1rem; align-items: center; margin-bottom: 0.9rem; }
+.medicine-price-row strong { font-size: 1.35rem; color: #0f172a; }
+.medicine-price-row button, .buy-links button, .checkout-btn, .checkout-secondary {
+  border: none; border-radius: 14px; padding: 0.72rem 0.95rem; font-weight: 900; cursor: pointer;
+}
+.medicine-price-row button, .checkout-btn { background: linear-gradient(135deg, #0891b2, #0284c7); color: white; }
+.buy-links { display: grid; gap: 0.55rem; }
+.buy-links button, .checkout-secondary { background: #f8fafc; color: #334155; border: 1px solid #cbd5e1; }
+.empty-cart {
+  text-align: center; padding: 2rem; background: #f8fafc; border: 2px dashed #cbd5e1;
+  border-radius: 20px; color: #64748b; font-weight: 800;
+}
+.empty-cart div { font-size: 2.4rem; margin-bottom: 0.5rem; }
+.cart-list { display: grid; gap: 0.75rem; margin: 1rem 0; }
+.cart-item {
+  display: flex; justify-content: space-between; gap: 1rem; background: #f8fafc;
+  border: 1px solid #e2e8f0; border-radius: 16px; padding: 0.85rem;
+}
+.cart-item strong, .cart-item span { display: block; }
+.cart-item span { color: #64748b; font-weight: 800; font-size: 0.85rem; }
+.cart-item button {
+  border: none; width: 32px; height: 32px; border-radius: 999px;
+  background: #fee2e2; color: #991b1b; cursor: pointer; font-size: 1.2rem;
+}
+.cart-total {
+  display: flex; justify-content: space-between; padding: 1rem; background: #ecfeff;
+  color: #155e75; border-radius: 16px; font-weight: 900; margin: 1rem 0;
+}
+.checkout-btn, .checkout-secondary { width: 100%; margin-top: 0.7rem; min-height: 48px; }
+.prescription-box {
+  margin-top: 1rem; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 18px; padding: 1rem;
+}
+.prescription-box h4 { margin: 0 0 0.5rem; color: #0f172a; }
+.prescription-box p { margin: 0; color: #64748b; font-weight: 700; }
+@media (max-width: 980px) {
+  .medicine-layout { grid-template-columns: 1fr; }
+  .medicine-hero, .ai-recommend-head { flex-direction: column; align-items: flex-start; }
+  .medicine-controls { grid-template-columns: 1fr; }
+}
