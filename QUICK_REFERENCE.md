@@ -278,4 +278,4 @@ When customizing:
 **Remember:** This is a demo system. Always follow institutional protocols and consult qualified healthcare professionals.
 
 **Version**: 1.0.0  
-**Last Updated**: January 2024
+**Last Updated**: may 14 2026
